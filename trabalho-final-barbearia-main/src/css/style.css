@@ -103,28 +103,42 @@ footer img{
    margin:20px 0 0;
 }
 main{
-   width: 100%;
+   width: 940px;
    margin: 0 auto;
   
 }
-.centralizar{
-   margin: 0 500px;
-}
+
 form {
    margin: 40px 0;
 }
 
-form label {
+form label , form p {
    display: block;
    font-size: 20px;
    margin: 0 0 10px;
 }
-
-form input{
+.input-padrao{
 display: block;
 margin: 0 0 20px;
 padding: 10px 25px;
 width: 50%;
 }
+.checkbox{
+   margin: 20px 0;
+}
 
-
+.enviar{
+   width: 40%;
+   padding: 15px 0 ;
+   background-color: #55b658;
+   color: white;
+   font-weight: bold;
+   font-size: 10px;
+   border: none;
+   border-radius: 5px;
+   transition: 1s  all;
+   cursor: pointer;
+}
+input[type=submit]:hover {
+   background-color: #407a43;
+ }
