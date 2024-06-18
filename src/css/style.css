@@ -169,3 +169,9 @@ td, th{
    background-size: cover;
    box-shadow: 1px 10px 10px #6B0098;*/
 }
+.video{
+   text-align: center;
+}
+body {
+   background-image: url(img/rosa-pra-branco.png.jpeg);
+}
