@@ -44,7 +44,7 @@ nav li {
 
  nav a:hover {
    color:rgb(68, 18, 68);
-   text-decoration: none;
+  
    
    text-shadow: 0 0 15px var(--colorPurple);
    transition: all 0.2s ease-in-out;
