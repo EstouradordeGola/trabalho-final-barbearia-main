@@ -175,3 +175,25 @@ td, th{
 body {
    background-image: url(img/rosa-pra-branco.png.jpeg);
 }
+/**{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: Century Gothic;
+   font-weight: bold;
+}
+:root{
+   --colorBack: #040305;
+   --colorPurple: #9800ce;
+   --colorGrey: rgb(87, 87 ,87)
+
+}
+main{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   font-size: 5em;
+   background: var(--colorBack);
+   color: var(--colorGrey);*/
+
