@@ -1,3 +1,10 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+font-weight: bold;
+}
 header h1 img{
     width: 200px;
     border-radius: 50%;
@@ -172,28 +179,9 @@ td, th{
 .video{
    text-align: center;
 }
-body {
-   background-image: url(img/rosa-pra-branco.png.jpeg);
+body{
+   background-image: url(src/img/preto.png);
 }
-/**{
-   padding: 0;
-   margin: 0;
-   box-sizing: border-box;
-   font-family: Century Gothic;
-   font-weight: bold;
+.mapa{
+   text-align: center;
 }
-:root{
-   --colorBack: #040305;
-   --colorPurple: #9800ce;
-   --colorGrey: rgb(87, 87 ,87)
-
-}
-main{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   min-height: 100vh;
-   font-size: 5em;
-   background: var(--colorBack);
-   color: var(--colorGrey);*/
-
