@@ -108,9 +108,13 @@ main{
     border-radius: 10px ;
     background: transparent;
     color: var(--colorPurple);
+    cursor:pointer;
  }
  .insta li:hover{
+    box-shadow: 0 0 15px var(--colorPurple),inset 0 0 15px var(--colorPurple);
+    text-shadow: 0 0 15px var(--colorPurple);
    border-color: var(--colorGrey);
+   transition: all 0.2s ease-in-out;
  }
  .insta li:active{
    border-color: var(--colorCiano);
