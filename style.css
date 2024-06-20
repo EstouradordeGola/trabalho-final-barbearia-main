@@ -1,0 +1,199 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+font-weight: bold;
+}
+header h1 img{
+    width: 200px;
+    border-radius: 50%;
+    box-shadow:10px 10px 10px rgb(128, 102, 131)
+}
+header{
+    background-color: #D1C2D7;
+    padding: 20px 0;
+    
+}
+nav li {
+   display:inline;
+    margin: 0 0 0 15px;
+
+}
+ nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+ }
+
+ .caixa {
+     position: relative;
+     width: 940px;
+     margin: 0 auto;
+   text-shadow: var(--colorPurple);
+ }
+ nav {
+    position: absolute;
+    top: 100px;
+    right:0px;
+
+ }
+
+ nav a:hover {
+   color:rgb(68, 18, 68);
+   text-decoration: none;
+   
+   text-shadow: 0 0 15px var(--colorPurple);
+   transition: all 0.2s ease-in-out;
+
+ }
+
+ .servicos {
+    width:940px;
+    margin: 0 auto;
+    padding:50px 0;
+ }
+
+ .servicos li {
+    display:inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px ;
+
+ }
+ .servicos li:hover{
+   border-color: orangered;
+ }
+ .servicos li:active{
+   border-color: chartreuse;
+ }
+ .servicos li:hover h2{
+   font-size: 34px;
+ }
+
+ .servicos li img {
+   width: 250px;
+
+ }
+.servicos h2{
+   font-size: 30px;
+   font-weight: bold;
+}
+.servico-descricao{
+   font-size: 18px;
+}
+.servicos-preco {
+   font-size: 22px;
+   font-weight: bold;
+   margin-top: 10px;
+
+}
+footer{
+   background-color: 
+   #D1C2D7;
+   text-align: center;
+   padding: 40px 0;
+
+}
+footer img{
+   width:200px;
+   border-radius: 50%;
+   box-shadow:10px 10px 10px rgb(128, 102, 131)
+}
+.copyright{
+   color:black;
+   font-size: 20px;
+   margin:20px 0 0;
+}
+main{
+   width: 940px;
+   margin: 0 auto;
+  
+}
+:root{
+   --colorBack: #fff;
+   --colorPurple: #9800ce;
+   --colorGrey: rgb(87, 87 ,87);
+   --colorCiano: rgb(0, 156, 184);
+ 
+}
+
+
+form {
+   margin: 40px 0;
+}
+
+form label , form p {
+   display: block;
+   font-size: 20px;
+   margin: 0 0 10px;
+}
+.input-padrao{
+display: block;
+margin: 0 0 20px;
+padding: 10px 25px;
+width: 50%;
+}
+.checkbox{
+   margin: 20px 0;
+}
+
+.enviar{
+   width: 40%;
+   padding: 15px 0 ;
+   background-color: #55b658;
+   color: white;
+   font-weight: bold;
+   font-size: 10px;
+   border: none;
+   border-radius: 5px;
+   transition: 1s  all;
+   cursor: pointer;
+}
+input[type=submit]:hover {
+   background-color: #407a43;
+   transform: scale(1.2);
+ }
+
+table{
+   margin: 20px 0 40px;
+
+}
+
+thead{
+   background-color: #55b658;
+   color:white;
+   font-weight: bold;
+
+
+}
+td, th{
+   border: 1px solid black;
+   padding: 8px 15px;
+}
+/* css da pagina principal*/
+
+#banner{
+   
+   width: 100%;/* view width(largura da imagem)*/
+   /*height:150vh;  view height(altura da imagem)
+   background-size: cover;
+   box-shadow: 1px 10px 10px #6B0098;*/
+}
+.video{
+   text-align: center;
+}
+body{
+   background-image: url(src/img/preto.png);
+}
+.mapa{
+   text-align: center;
+}
